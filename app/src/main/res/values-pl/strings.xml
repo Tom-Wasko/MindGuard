@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">MindGuard</string>
+    <string name="app_tagline">Twoja forteca uważności</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_label">Tryb Fortecy MindGuard</string>
+    <string name="accessibility_service_description">MindGuard używa funkcji ułatwień dostępu, aby pomóc Ci zachować skupienie podczas protokołu paniki. Chroni Cię przed rozpraszającymi aplikacjami podczas 200-sekundowej sesji mindfulness.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Witaj w MindGuard</string>
+    <string name="onboarding_subtitle">Zbudujmy Twój fundament</string>
+    <string name="onboarding_step_language">Wybierz język</string>
+    <string name="onboarding_step_goals">Cele życiowe</string>
+    <string name="onboarding_step_triggers">Twoje triggery</string>
+    <string name="onboarding_step_reasons">Powody zmiany</string>
+    <string name="onboarding_step_mentor">Twój mentor</string>
+    <string name="onboarding_next">Dalej</string>
+    <string name="onboarding_back">Wstecz</string>
+    <string name="onboarding_finish">Rozpocznij podróż</string>
+    <string name="onboarding_goals_hint">Opisz, co chcesz osiągnąć w życiu… (min. 20 znaków)</string>
+    <string name="onboarding_goals_label">Jakie są Twoje cele życiowe?</string>
+    <string name="onboarding_triggers_label">Co jest Twoim triggerem? (wybierz wszystkie odpowiedzi)</string>
+    <string name="onboarding_reasons_hint">Co motywuje Cię do zmiany? (min. 20 znaków)</string>
+    <string name="onboarding_reasons_label">Dlaczego chcesz się zmienić?</string>
+    <string name="onboarding_mentor_label">Wybierz rodzaj mentora</string>
+    <string name="onboarding_validation_min_chars">Napisz co najmniej 20 znaków</string>
+    <string name="onboarding_validation_select_trigger">Wybierz co najmniej jeden trigger</string>
+
+    <!-- Mentor types -->
+    <string name="mentor_coach">Surowy Coach</string>
+    <string name="mentor_coach_desc">Bezpośredni, motywujący, zorientowany na cel</string>
+    <string name="mentor_friend">Empatyczny Przyjaciel</string>
+    <string name="mentor_friend_desc">Ciepły, wyrozumiały, wspierający</string>
+    <string name="mentor_sage">Mądry Mędrzec</string>
+    <string name="mentor_sage_desc">Filozoficzny, spokojny, przenikliwy</string>
+
+    <!-- Triggers -->
+    <string name="trigger_boredom">Nuda</string>
+    <string name="trigger_stress">Stres</string>
+    <string name="trigger_loneliness">Samotność</string>
+    <string name="trigger_anxiety">Lęk</string>
+    <string name="trigger_anger">Złość</string>
+    <string name="trigger_sadness">Smutek</string>
+    <string name="trigger_social_pressure">Presja społeczna</string>
+    <string name="trigger_tiredness">Zmęczenie</string>
+    <string name="trigger_procrastination">Prokrastynacja</string>
+    <string name="trigger_celebration">Świętowanie</string>
+    <string name="trigger_other">Inne</string>
+
+    <!-- Mindfulness Screen -->
+    <string name="mindfulness_title_grounding">Uziemienie 5-4-3-2-1</string>
+    <string name="mindfulness_title_stop">Technika STOP</string>
+    <string name="mindfulness_title_box_breathing">Oddech Pudełkowy</string>
+    <string name="mindfulness_title_breathing_478">Oddech 4-7-8</string>
+    <string name="mindfulness_title_helicopter">Widok z Helikoptera</string>
+    <string name="mindfulness_title_wise_mind">Analiza Mądrego Umysłu</string>
+    <string name="mindfulness_title_gratitude">Praktyka Wdzięczności</string>
+    <string name="mindfulness_title_safe_place">Bezpieczne Miejsce</string>
+    <string name="mindfulness_title_mantra">Medytacja z Mantrą</string>
+    <string name="mindfulness_title_counting">Liczenie Wstecz</string>
+    <string name="mindfulness_title_body_scan">Skanowanie Ciała</string>
+    <string name="mindfulness_title_abc">Analiza ABC</string>
+    <string name="mindfulness_title_restructuring">Restrukturyzacja Poznawcza</string>
+    <string name="mindfulness_title_details">Rejestrowanie Detali</string>
+    <string name="mindfulness_title_acceptance">Akceptacja Emocji</string>
+
+    <string name="mindfulness_complete">Ukończone ✓</string>
+    <string name="mindfulness_skip">Pomiń (–3 pkt)</string>
+    <string name="mindfulness_step_of">Krok %1$d z %2$d</string>
+    <string name="mindfulness_inhale">Wdech</string>
+    <string name="mindfulness_hold">Zatrzymanie</string>
+    <string name="mindfulness_exhale">Wydech</string>
+    <string name="mindfulness_seconds">%ds</string>
+    <string name="mindfulness_tap_to_confirm">Dotknij, aby potwierdzić</string>
+    <string name="mindfulness_type_your_answer">Wpisz swoją odpowiedź…</string>
+
+    <!-- Panic Protocol -->
+    <string name="panic_title">FORTECA UWAŻNOŚCI</string>
+    <string name="panic_subtitle">Protokół 200 sekund aktywny</string>
+    <string name="panic_emergency">AWARYJNY</string>
+    <string name="panic_call_emergency">Zadzwoń na pogotowie</string>
+    <string name="panic_open_camera">Otwórz aparat</string>
+    <string name="panic_seconds_remaining">%d sekund pozostało</string>
+    <string name="panic_complete">Protokół zakończony</string>
+    <string name="panic_activate">Aktywuj Protokół Paniki</string>
+    <string name="panic_overlay_permission_needed">MindGuard potrzebuje uprawnienia do wyświetlania nakładek</string>
+    <string name="panic_grant_permission">Udziel uprawnienia</string>
+
+    <!-- Main Menu -->
+    <string name="menu_mindfulness">Mindfulness</string>
+    <string name="menu_mentor">Mentor AI</string>
+    <string name="menu_tasks">Matematyka i Logika</string>
+    <string name="menu_panic">Protokół Paniki</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_greeting_morning">Dzień dobry</string>
+    <string name="menu_greeting_afternoon">Dzień dobry</string>
+    <string name="menu_greeting_evening">Dobry wieczór</string>
+
+    <!-- Cognitive Tasks -->
+    <string name="tasks_title">Matematyka i Logika</string>
+    <string name="tasks_subtitle">Skupi swój umysł</string>
+    <string name="tasks_answer_placeholder">Wpisz swoją odpowiedź…</string>
+    <string name="tasks_submit">Zatwierdź odpowiedź</string>
+    <string name="tasks_correct">Poprawnie! ✓</string>
+    <string name="tasks_incorrect">Niepoprawnie. Odpowiedź to: %1$s</string>
+    <string name="tasks_explanation">Wyjaśnienie: %1$s</string>
+    <string name="tasks_next">Następne zadanie</string>
+    <string name="tasks_true">Prawda</string>
+    <string name="tasks_false">Fałsz</string>
+    <string name="tasks_streak">Seria: %d</string>
+
+    <!-- Mentor Chat -->
+    <string name="mentor_title">Twój Mentor</string>
+    <string name="mentor_input_placeholder">Podziel się tym, co masz na myśli…</string>
+    <string name="mentor_send">Wyślij</string>
+    <string name="mentor_thinking">Myślę…</string>
+    <string name="mentor_offline_notice">Tryb offline – ograniczone odpowiedzi</string>
+    <string name="mentor_welcome_message">Cześć. Jestem tu dla Ciebie. Jak się teraz czujesz?</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ustawienia</string>
+    <string name="settings_language">Język</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_pl">Polski</string>
+    <string name="settings_reset_profile">Zresetuj profil</string>
+    <string name="settings_reset_confirm">Spowoduje to usunięcie wszystkich Twoich danych i ponowne uruchomienie konfiguracji. Czy na pewno?</string>
+    <string name="settings_reset_yes">Resetuj</string>
+    <string name="settings_reset_no">Anuluj</string>
+    <string name="settings_gemini_key">Klucz API Gemini</string>
+    <string name="settings_gemini_key_hint">Wpisz klucz API z AI Studio</string>
+    <string name="settings_gemini_key_saved">Klucz API zapisany</string>
+    <string name="settings_panic_mode">Tryb Protokołu Paniki</string>
+    <string name="settings_panic_lite">Standard (Nakładka)</string>
+    <string name="settings_panic_fortress">Forteca (Ułatwienia dostępu)</string>
+    <string name="settings_about">O MindGuard</string>
+    <string name="settings_version">Wersja %1$s</string>
+
+    <!-- Common -->
+    <string name="common_loading">Ładowanie…</string>
+    <string name="common_error">Coś poszło nie tak</string>
+    <string name="common_retry">Spróbuj ponownie</string>
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Anuluj</string>
+    <string name="common_save">Zapisz</string>
+    <string name="common_close">Zamknij</string>
+    <string name="language_en">Angielski</string>
+    <string name="language_pl">Polski</string>
+
+    <!-- Breathing exercises -->
+    <string name="breathing_cycles_remaining">Pozostało %d cykli</string>
+    <string name="breathing_complete">Ćwiczenie oddechowe zakończone</string>
+    <plurals name="seconds_remaining">
+        <item quantity="one">Pozostała %d sekunda</item>
+        <item quantity="few">Pozostały %d sekundy</item>
+        <item quantity="many">Pozostało %d sekund</item>
+        <item quantity="other">Pozostało %d sekund</item>
+    </plurals>
+</resources>
