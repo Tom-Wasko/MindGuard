@@ -19,7 +19,7 @@ import com.mindguard.onboarding.data.entity.UserProfileEntity
         CognitiveTaskResultEntity::class
     ],
     version = 1,
-    exportSchema = true
+    exportSchema = false
 )
 @TypeConverters(MindGuardConverters::class)
 abstract class MindGuardDatabase : RoomDatabase() {
