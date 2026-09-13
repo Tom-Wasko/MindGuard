@@ -86,8 +86,9 @@ fun GroundingStepItem(
         Spacer(modifier = Modifier.width(12.dp))
 
         Column(modifier = Modifier.weight(1f)) {
+            val isPl = java.util.Locale.getDefault().language == "pl"
             Text(
-                text = step.instructionPl,  // TODO: use locale-aware string
+                text = if (isPl) step.instructionPl else step.instructionEn,
                 style = MaterialTheme.typography.bodyMedium,
                 color = if (isComplete) SageGreen else if (isCurrentStep) CreamWhite else MutedLilac
             )

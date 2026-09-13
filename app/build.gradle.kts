@@ -32,9 +32,8 @@ android {
         val geminiKey = localProperties.getProperty("GEMINI_API_KEY") ?: ""
         buildConfigField("String", "GEMINI_API_KEY", "\"$geminiKey\"")
 
-        // Room schema export
+        // Room KSP config
         ksp {
-            arg("room.schemaLocation", "$projectDir/schemas")
             arg("room.incremental", "true")
         }
     }
